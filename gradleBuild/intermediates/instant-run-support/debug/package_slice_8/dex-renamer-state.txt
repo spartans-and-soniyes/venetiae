@@ -1,0 +1,4 @@
+#Sat Nov 25 00:32:55 EST 2017
+base.0=/home/sean/Documents/hackwit/venetiae/gradleBuild/intermediates/transforms/dexMerger/debug/9
+path.0=classes.dex
+renamed.0=classes.dex
