@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:18:1-74:12
-INJECTED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:18:1-74:12
+ADDED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:18:1-48:12
+INJECTED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:18:1-48:12
 MERGED from [org.tensorflow:tensorflow-android:1.4.0] /home/sean/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.4.0.aar/465ff360a10f0d8bc52501ef7a53dfb9/AndroidManifest.xml:2:1-8:12
-INJECTED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:18:1-74:12
+INJECTED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:18:1-48:12
 	package
 		ADDED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:19:5-34
 		INJECTED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml
@@ -45,7 +45,7 @@ INJECTED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:27:5-29:
 		INJECTED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml
 		INJECTED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml
 application
-ADDED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:31:5-72:19
+ADDED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:31:5-46:19
 MERGED from [org.tensorflow:tensorflow-android:1.4.0] /home/sean/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.4.0.aar/465ff360a10f0d8bc52501ef7a53dfb9/AndroidManifest.xml:5:5-6:19
 MERGED from [org.tensorflow:tensorflow-android:1.4.0] /home/sean/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.4.0.aar/465ff360a10f0d8bc52501ef7a53dfb9/AndroidManifest.xml:5:5-6:19
 	android:label
@@ -58,14 +58,14 @@ MERGED from [org.tensorflow:tensorflow-android:1.4.0] /home/sean/.gradle/caches/
 		ADDED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:31:18-44
 	android:theme
 		ADDED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:35:9-45
-activity#org.tensorflow.demo.ClassifierActivity
+activity#org.tensorflow.demo.DetectorActivity
 ADDED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:37:9-44:20
 	android:screenOrientation
 		ADDED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:38:19-55
 	android:label
-		ADDED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:39:19-71
+		ADDED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:39:19-66
 	android:name
-		ADDED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:37:19-72
+		ADDED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:37:19-70
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:40:13-43:29
 action#android.intent.action.MAIN
@@ -76,31 +76,7 @@ category#android.intent.category.LAUNCHER
 ADDED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:42:17-77
 	android:name
 		ADDED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:42:27-74
-activity#org.tensorflow.demo.DetectorActivity
-ADDED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:46:9-53:20
-	android:screenOrientation
-		ADDED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:47:19-55
-	android:label
-		ADDED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:48:19-66
-	android:name
-		ADDED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:46:19-70
-activity#org.tensorflow.demo.StylizeActivity
-ADDED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:55:9-62:20
-	android:screenOrientation
-		ADDED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:56:19-55
-	android:label
-		ADDED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:57:19-64
-	android:name
-		ADDED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:55:19-69
-activity#org.tensorflow.demo.SpeechActivity
-ADDED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:64:9-71:20
-	android:screenOrientation
-		ADDED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:65:13-49
-	android:label
-		ADDED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:66:13-57
-	android:name
-		ADDED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:64:19-68
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:18:1-74:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
+IMPLIED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:18:1-48:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:18:1-74:12 reason: tensorflow.contrib.android requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /home/sean/Documents/hackwit/venetiae/AndroidManifest.xml:18:1-48:12 reason: tensorflow.contrib.android requested WRITE_EXTERNAL_STORAGE

@@ -1,45 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="247bd4d3-098d-489c-aa99-067e296592ef" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/imageutils_jni.cc" afterPath="$PROJECT_DIR$/jni/imageutils_jni.cc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/config.h" afterPath="$PROJECT_DIR$/jni/object_tracking/config.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/flow_cache.h" afterPath="$PROJECT_DIR$/jni/object_tracking/flow_cache.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/frame_pair.cc" afterPath="$PROJECT_DIR$/jni/object_tracking/frame_pair.cc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/frame_pair.h" afterPath="$PROJECT_DIR$/jni/object_tracking/frame_pair.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/geom.h" afterPath="$PROJECT_DIR$/jni/object_tracking/geom.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/gl_utils.h" afterPath="$PROJECT_DIR$/jni/object_tracking/gl_utils.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/image-inl.h" afterPath="$PROJECT_DIR$/jni/object_tracking/image-inl.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/image.h" afterPath="$PROJECT_DIR$/jni/object_tracking/image.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/image_data.h" afterPath="$PROJECT_DIR$/jni/object_tracking/image_data.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/image_neon.cc" afterPath="$PROJECT_DIR$/jni/object_tracking/image_neon.cc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/image_utils.h" afterPath="$PROJECT_DIR$/jni/object_tracking/image_utils.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/integral_image.h" afterPath="$PROJECT_DIR$/jni/object_tracking/integral_image.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/jni_utils.h" afterPath="$PROJECT_DIR$/jni/object_tracking/jni_utils.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/keypoint.h" afterPath="$PROJECT_DIR$/jni/object_tracking/keypoint.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/keypoint_detector.cc" afterPath="$PROJECT_DIR$/jni/object_tracking/keypoint_detector.cc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/keypoint_detector.h" afterPath="$PROJECT_DIR$/jni/object_tracking/keypoint_detector.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/logging.cc" afterPath="$PROJECT_DIR$/jni/object_tracking/logging.cc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/object_detector.cc" afterPath="$PROJECT_DIR$/jni/object_tracking/object_detector.cc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/object_detector.h" afterPath="$PROJECT_DIR$/jni/object_tracking/object_detector.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/object_model.h" afterPath="$PROJECT_DIR$/jni/object_tracking/object_model.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/object_tracker.cc" afterPath="$PROJECT_DIR$/jni/object_tracking/object_tracker.cc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/object_tracker.h" afterPath="$PROJECT_DIR$/jni/object_tracking/object_tracker.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/object_tracker_jni.cc" afterPath="$PROJECT_DIR$/jni/object_tracking/object_tracker_jni.cc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/optical_flow.cc" afterPath="$PROJECT_DIR$/jni/object_tracking/optical_flow.cc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/optical_flow.h" afterPath="$PROJECT_DIR$/jni/object_tracking/optical_flow.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/sprite.h" afterPath="$PROJECT_DIR$/jni/object_tracking/sprite.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/time_log.cc" afterPath="$PROJECT_DIR$/jni/object_tracking/time_log.cc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/time_log.h" afterPath="$PROJECT_DIR$/jni/object_tracking/time_log.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/tracked_object.cc" afterPath="$PROJECT_DIR$/jni/object_tracking/tracked_object.cc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/tracked_object.h" afterPath="$PROJECT_DIR$/jni/object_tracking/tracked_object.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/utils.h" afterPath="$PROJECT_DIR$/jni/object_tracking/utils.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/object_tracking/utils_neon.cc" afterPath="$PROJECT_DIR$/jni/object_tracking/utils_neon.cc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/rgb2yuv.cc" afterPath="$PROJECT_DIR$/jni/rgb2yuv.cc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/yuv2rgb.cc" afterPath="$PROJECT_DIR$/jni/yuv2rgb.cc" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/12/com/android/tools/ir/dummy/slice_0.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/13/com/android/tools/ir/dummy/slice_1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/14/com/android/tools/ir/dummy/slice_2.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/15/com/android/tools/ir/dummy/slice_3.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/15/org/tensorflow/demo/env/BorderedText.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/15/org/tensorflow/demo/env/ImageUtils.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/15/org/tensorflow/demo/env/Logger.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/15/org/tensorflow/demo/env/Size.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/15/org/tensorflow/demo/env/SplitTimer.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/16/com/android/tools/ir/dummy/slice_4.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/17/com/android/tools/ir/dummy/slice_5.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/17/org/tensorflow/demo/tracking/MultiBoxTracker$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/17/org/tensorflow/demo/tracking/MultiBoxTracker$TrackedRecognition.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/17/org/tensorflow/demo/tracking/MultiBoxTracker.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/17/org/tensorflow/demo/tracking/ObjectTracker$FrameChange.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/17/org/tensorflow/demo/tracking/ObjectTracker$Keypoint.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/17/org/tensorflow/demo/tracking/ObjectTracker$PointChange.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/17/org/tensorflow/demo/tracking/ObjectTracker$TimestampedDeltas.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/17/org/tensorflow/demo/tracking/ObjectTracker$TrackedObject.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/17/org/tensorflow/demo/tracking/ObjectTracker.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/18/com/android/tools/ir/dummy/slice_6.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/com/android/tools/ir/dummy/slice_7.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/AutoFitTextureView.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/BuildConfig.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/CameraActivity$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/CameraActivity$2.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/CameraActivity$3.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/CameraActivity$4.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/CameraActivity$5.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/CameraActivity.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/CameraConnectionFragment$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/CameraConnectionFragment$2.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/CameraConnectionFragment$3.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/CameraConnectionFragment$4.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/CameraConnectionFragment$5.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/CameraConnectionFragment$CompareSizesByArea.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/CameraConnectionFragment$ConnectionCallback.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/CameraConnectionFragment$ErrorDialog$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/CameraConnectionFragment$ErrorDialog.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/CameraConnectionFragment.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/Classifier$Recognition.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/Classifier.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/ClassifierActivity$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/ClassifierActivity$2.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/ClassifierActivity.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/DetectorActivity$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/DetectorActivity$2.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/DetectorActivity$3.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/DetectorActivity$4.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/DetectorActivity$DetectorMode.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/DetectorActivity.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/LegacyCameraConnectionFragment$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/LegacyCameraConnectionFragment.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/OverlayView$DrawCallback.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/OverlayView.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/R$attr.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/R$color.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/R$dimen.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/R$drawable.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/R$id.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/R$layout.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/R$string.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/R$style.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/R$styleable.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/R.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/RecognitionScoreView.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/RecognizeCommands$RecognitionResult.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/RecognizeCommands$ScoreForSorting.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/RecognizeCommands.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/ResultsView.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/SpeechActivity$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/SpeechActivity$2.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/SpeechActivity$3.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/SpeechActivity$4$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/SpeechActivity$4.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/SpeechActivity.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/StylizeActivity$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/StylizeActivity$2.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/StylizeActivity$3.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/StylizeActivity$ImageGridAdapter$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/StylizeActivity$ImageGridAdapter$2.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/StylizeActivity$ImageGridAdapter$3.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/StylizeActivity$ImageGridAdapter$4.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/StylizeActivity$ImageGridAdapter.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/StylizeActivity$ImageSlider.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/StylizeActivity.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/TensorFlowImageClassifier$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/TensorFlowImageClassifier.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/TensorFlowMultiBoxDetector$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/TensorFlowMultiBoxDetector.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/TensorFlowObjectDetectionAPIModel$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/TensorFlowObjectDetectionAPIModel.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/TensorFlowYoloDetector$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/19/org/tensorflow/demo/TensorFlowYoloDetector.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/20/com/android/tools/ir/dummy/slice_8.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/20/tensorflow/contrib/android/R.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/21/com/android/tools/ir/dummy/slice_9.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexMerger/debug/1/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexMerger/debug/10/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexMerger/debug/11/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexMerger/debug/12/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexMerger/debug/13/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexMerger/debug/14/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexMerger/debug/15/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexMerger/debug/16/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexMerger/debug/17/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexMerger/debug/2/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexMerger/debug/3/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexMerger/debug/4/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexMerger/debug/5/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexMerger/debug/6/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexMerger/debug/7/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexMerger/debug/8/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexMerger/debug/9/classes.dex" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/incremental/packageDebug/debug/zip-cache/HQyHpcqtk2g4w6_6O3kmSRHL5IY=" afterPath="$PROJECT_DIR$/gradleBuild/intermediates/incremental/packageDebug/debug/zip-cache/HQyHpcqtk2g4w6_6O3kmSRHL5IY=" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/gradleBuild/intermediates/res/debug/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradleBuild/outputs/apk/debug/venetiae-debug.apk" afterPath="$PROJECT_DIR$/gradleBuild/outputs/apk/debug/venetiae-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/gradleBuild/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/gradleBuild/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/gradleBuild/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexBuilder/debug/__content__.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/gradleBuild/intermediates/transforms/dexMerger/debug/__content__.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradleBuild/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/gradleBuild/outputs/logs/manifest-merger-debug-report.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,105 +166,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="sprite.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jni/object_tracking/sprite.h">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+            <state relative-caret-position="620">
+              <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="time_log.cc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jni/object_tracking/time_log.cc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="time_log.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jni/object_tracking/time_log.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tracked_object.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jni/object_tracking/tracked_object.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utils.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jni/object_tracking/utils.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utils_neon.cc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jni/object_tracking/utils_neon.cc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-              <folding>
-                <element signature="e#833#854#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="imageutils_jni.cc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jni/imageutils_jni.cc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="yuv2rgb.cc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jni/yuv2rgb.cc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-960">
-              <caret line="42" column="30" lean-forward="false" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rgb2yuv.cc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jni/rgb2yuv.cc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-              <folding />
-            </state>
+          <provider editor-type-id="android-manifest">
+            <state />
           </provider>
         </entry>
       </file>
@@ -1223,6 +1237,7 @@
         <option value="$PROJECT_DIR$/jni/imageutils_jni.cc" />
         <option value="$PROJECT_DIR$/jni/rgb2yuv.cc" />
         <option value="$PROJECT_DIR$/jni/yuv2rgb.cc" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -1269,6 +1284,38 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="venetiae" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="venetiae" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="venetiae" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="venetiae" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="venetiae" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidManifestsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1372,7 +1419,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1511588173369" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1511588381208" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1479,7 +1526,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1511588173369" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1511588381208" />
       </method>
     </configuration>
     <list size="1">
@@ -1802,7 +1849,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jni/object_tracking/tracked_object.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="20">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
@@ -1834,14 +1881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jni/rgb2yuv.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jni/yuv2rgb.cc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -1856,6 +1895,25 @@
           <caret line="42" column="30" lean-forward="false" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jni/rgb2yuv.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
       </provider>
     </entry>
   </component>
