@@ -83,7 +83,7 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
   private enum DetectorMode {
     TF_OD_API, MULTIBOX, YOLO;
   }
-  private static final DetectorMode MODE = DetectorMode.YOLO;
+  private static final DetectorMode MODE = DetectorMode.TF_OD_API;
 
   // Minimum detection confidence to track a detection.
   private static final float MINIMUM_CONFIDENCE_TF_OD_API = 0.6f;
