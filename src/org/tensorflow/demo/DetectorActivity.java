@@ -71,7 +71,7 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
   // Graphs and models downloaded from http://pjreddie.com/darknet/yolo/ may be converted e.g. via
   // DarkFlow (https://github.com/thtrieu/darkflow). Sample command:
   // ./flow --model cfg/tiny-yolo-voc.cfg --load bin/tiny-yolo-voc.weights --savepb --verbalise
-  private static final String YOLO_MODEL_FILE = "file:///android_asset/graph-tiny-yolo-voc.pb";
+  private static final String YOLO_MODEL_FILE = "file:///android_asset/tiny-yolo-obj.pb";
   private static final int YOLO_INPUT_SIZE = 416;
   private static final String YOLO_INPUT_NAME = "input";
   private static final String YOLO_OUTPUT_NAMES = "output";
@@ -83,12 +83,12 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
   private enum DetectorMode {
     TF_OD_API, MULTIBOX, YOLO;
   }
-  private static final DetectorMode MODE = DetectorMode.TF_OD_API;
+  private static final DetectorMode MODE = DetectorMode.YOLO;
 
   // Minimum detection confidence to track a detection.
   private static final float MINIMUM_CONFIDENCE_TF_OD_API = 0.6f;
   private static final float MINIMUM_CONFIDENCE_MULTIBOX = 0.1f;
-  private static final float MINIMUM_CONFIDENCE_YOLO = 0.25f;
+  private static final float MINIMUM_CONFIDENCE_YOLO = 0.05f;
 
   private static final boolean MAINTAIN_ASPECT = MODE == DetectorMode.YOLO;
 
